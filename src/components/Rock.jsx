@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { rockBandList } from './data';
+import { rockBandList } from '../data';
 
 export default function Rock() {
   const [index, setIndex] = useState(0);

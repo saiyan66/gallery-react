@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html, body, #root {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;               /* Remove browser default margin */
+    min-height: 100%;
+    /* Option 1: use a CSS gradient (works even if Tailwind isn't applied to body) */
+    background: linear-gradient(135deg, #0f172a 0%, #0b1220 50%, #2b1f4a 100%);
+    color: #fff;
+  }
+  
+  /* Optional: If you prefer Tailwind utilities on body, you can use @apply */
+  body.tailwind-bg {
+    @apply bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-900;
+  }

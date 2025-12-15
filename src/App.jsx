@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { rockBandList } from './data'
-import Rock from './Rock';
+import Rock from './components/Rock';
 import './App.css'
 
 
